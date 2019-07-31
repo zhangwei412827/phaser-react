@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "phaser-react@1.0.20",
+      "/Users/weizhang/Documents/workspace/备播系统/chn-iscreen-beibo"
+    ]
+  ],
+  "_from": "phaser-react@1.0.20",
+  "_id": "phaser-react@1.0.20",
+  "_inBundle": false,
+  "_integrity": "sha1-5hcZZflSOlLtgUqMCniWxQeqMAA=",
+  "_location": "/phaser-react",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "phaser-react@1.0.20",
+    "name": "phaser-react",
+    "escapedName": "phaser-react",
+    "rawSpec": "1.0.20",
+    "saveSpec": null,
+    "fetchSpec": "1.0.20"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/phaser-react/download/phaser-react-1.0.20.tgz",
+  "_spec": "1.0.20",
+  "_where": "/Users/weizhang/Documents/workspace/备播系统/chn-iscreen-beibo",
+  "author": {
+    "name": "AlexWang"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "description": "a dragonbones texture loading and parsing libaray for phaser game engine.",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "keywords": [
+    "db4phaser"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "phaser-react",
+  "scripts": {
+    "test": "test/index.js",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "version": "1.0.20",
+  "wbp": {
+    "project": "umd",
+    "entries": {
+      "test": "./src/test/index.js",
+      "index": "./src/index.js"
+    },
+    "source": "src/",
+    "build": "dist/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

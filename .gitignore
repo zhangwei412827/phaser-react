@@ -1,0 +1,38 @@
+# exclude all
+/*
+.DS_Store
+
+# project structure
+!/src/
+!/etc/
+!/doc/
+!/test/
+!/dist/
+!/dist/package.json
+!/dist/package-lock.json
+!/build/
+!/at/
+
+# project files
+!README.md
+!package.json
+!package-lock.json
+!LICENSE
+!webpack.config.js
+!main.bat
+!version
+!.gitlab-ci.yml
+!jenkins.bat
+!.babelrc
+!.eslintrc.js
+!.eslintignore
+
+!PlayerClient
+!.gitignore
+
+# beibo ipcServer
+!/BeiboipcServer/
+*_BindRelation
+*.bak
+*.log
+/node_modules
